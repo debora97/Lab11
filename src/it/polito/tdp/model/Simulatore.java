@@ -151,6 +151,15 @@ public class Simulatore {
 			
 			
 			case GRUPPO_ASSEGNATO: 
+				if(ev.getTavolo()==10) {
+					tavolo10++;
+				} else if(ev.getTavolo()==8) {
+					tavolo8++;
+				} else if(ev.getTavolo()==6) {
+					tavolo6++;
+				}else if(ev.getTavolo()==4) {
+					tavolo4++;
+				}
 				
 				break;
 			
