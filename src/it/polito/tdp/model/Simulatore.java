@@ -100,6 +100,7 @@ public class Simulatore {
 						 numero_totale_clienti= numero_totale_clienti+numeroPersone;
 						  numero_clienti_soddisfatti+=numeroPersone;
 						  queue.add(new Evento(ev.getOra().plus(ev.getDurata()), TipoEvento.GRUPPO_ASSEGNATO));
+						  ev.setTavolo(6);
 						  break;
 					} 
 							
@@ -120,6 +121,7 @@ public class Simulatore {
 						 numero_totale_clienti= numero_totale_clienti+numeroPersone;
 						  numero_clienti_soddisfatti+=numeroPersone;
 						  queue.add(new Evento(ev.getOra().plus(ev.getDurata()), TipoEvento.GRUPPO_ASSEGNATO));
+						  ev.setTavolo(8);
 						  break;
 					} 
 							
@@ -140,6 +142,7 @@ public class Simulatore {
 						 numero_totale_clienti= numero_totale_clienti+numeroPersone;
 						  numero_clienti_soddisfatti+=numeroPersone;
 						  queue.add(new Evento(ev.getOra().plus(ev.getDurata()), TipoEvento.GRUPPO_ASSEGNATO));
+						  ev.setTavolo(10);
 						  break;
 					} 
 							
